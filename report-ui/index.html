@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>📊 پنل گزارش بازی</title>
+<link rel="stylesheet" href="/report-ui/report.css">
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+<script src="/report-ui/report.js"></script>
+</head>
+<body>
+
+<h2>📊 پنل مدیریتی گزارش</h2>
+
+<div style="margin-bottom: 20px;">
+    <label>انتخاب بازیکن</label>
+   <select id="modeSelect">
+        <option value="competition">مسابقه</option>
+        <option value="practice">تمرین</option>
+    </select>
+
+    <label style="margin-left:20px;">انتخاب نوع دیتا</label>
+    <select id="playerSelect">
+        <option value="">انتخاب بازیکن</option>
+    </select>
+    
+
+    <button onclick="loadReport()">📊 نمایش گزارش</button>
+</div>
+
+<canvas id="chart" height="120"></canvas>
+
+<h3>کلیه جواب‌های ثبت شده</h3>
+<table>
+    <thead>
+        <tr>
+            <th>سوال</th>
+            <th>جواب‌های ثبت‌شده</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<h3 class="wrong-title">سوال‌های با بیشترین جواب غلط</h3>
+<table id="tableWrongStats">
+    <thead>
+        <tr>
+            <th>سوال</th>
+            <th>تعداد غلط</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<h3 class="right-title">سوال‌های با بیشترین جواب صحیح</h3>
+<table id="tableRightStats">
+    <thead>
+        <tr>
+            <th>سوال</th>
+            <th>تعداد درست</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+</body>
+</html>

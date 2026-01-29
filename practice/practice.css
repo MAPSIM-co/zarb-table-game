@@ -1,0 +1,172 @@
+body {
+    font-family: 'Comic Sans MS', Tahoma, sans-serif;
+    background: linear-gradient(to bottom, #f0f8ff, #ffe4e1);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.hidden { display: none !important; }
+
+/* پاپ‌آپ */
+.modal {
+    position: fixed;
+    top:0; left:0; width:100%; height:100%;
+    background: rgba(0,0,0,0.6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index: 100;
+}
+.modal-content {
+    background:#fff;
+    padding:20px;
+    border-radius:20px;
+    width:90%;
+    max-width:450px;
+    max-height:90vh;
+    overflow-y:auto;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    animation: slideIn 0.5s ease-out;
+    text-align: center;
+}
+@keyframes slideIn {
+    from {transform: translateY(-50px); opacity:0;}
+    to {transform: translateY(0); opacity:1;}
+}
+
+/* inputs */
+input, select {
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 8px;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #76c7c0;
+    text-align: center;
+}
+
+/* buttons */
+button {
+    font-size: 22px;
+    padding: 12px 25px;
+    margin: 10px 0;
+    border-radius: 15px;
+    background: #76c7c0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    max-width: 200px;
+    transition: all 0.2s ease;
+}
+button:hover { transform: scale(1.1); }
+
+/* صفحه بازی وسط صفحه */
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    gap: 20px;
+    position: relative;
+}
+
+/* نام بازیکن و شماره سوال */
+#player-name {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: #ff6f61;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+#question-number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    width: 100%;
+}
+
+/* کارت سوال */
+.question-card {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    background: #ffefc1;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* پاسخ و دکمه */
+#answer {
+    font-size: 28px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 12px;
+    border: 2px solid #76c7c0;
+    text-align: center;
+}
+
+.answer-btn {
+    font-size: 22px;
+    padding: 12px 25px;
+    margin: 10px 0;
+    border-radius: 15px;
+    background: #76c7c0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.result-msg {
+    font-size: 36px;
+    margin: 15px 0;
+    min-height: 50px;
+    border: 3px solid #76c7c0;
+    border-radius: 15px;
+    background: #ffefc1;
+    padding: 15px 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* امتیاز */
+#scoreboard { width: 90%; max-width: 200px; }
+#score {
+    background: #ffd166;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* تایمر بالا سمت راست */
+#timer-container { 
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 120px; 
+    height: 120px; 
+    z-index: 200;
+}
+#timer-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+}

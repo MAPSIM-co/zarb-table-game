@@ -1,0 +1,125 @@
+body {
+    font-family: "Tahoma", sans-serif;
+    background: #eef2f7;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 0 10px;
+}
+
+select, button {
+    font-size: 16px;
+    padding: 10px 16px;
+    margin: 12px 5px;
+    border-radius: 8px;
+    border: 1px solid #888;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+select {
+    min-width: 180px;
+}
+
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+canvas {
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+h3 {
+    margin-top: 40px;
+    color: #555;
+}
+
+/* جدول بیشترین غلط */
+#tableWrongStats {
+    background: #ffe6e6;
+}
+
+#tableWrongStats th {
+    background: #f44336;
+    color: white;
+    font-size: 18px;
+}
+
+#tableWrongStats td {
+    color: #b71c1c;
+    font-weight: bold;
+}
+
+/* جدول بیشترین درست */
+#tableRightStats {
+    background: #e6ffe6;
+}
+
+#tableRightStats th {
+    background: #4CAF50;
+    color: white;
+    font-size: 18px;
+}
+
+#tableRightStats td {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+h3.wrong-title {
+    color: #f44336;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+h3.right-title {
+    color: #4CAF50;
+    font-size: 22px;
+    margin-top: 30px;
+}

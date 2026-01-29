@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+
+<h2>پنل مدیریتی ادمین</h2>
+
+<div class="buttons">
+    <button onclick="showAddPlayer()">ثبت بازیکن جدید</button>
+
+    <!-- فقط برای سوپرادمین -->
+    <button id="showAddAdminBtn" onclick="showAddAdmin()">ثبت ادمین جدید</button>
+
+    <button onclick="goReport()">گزارش‌ها</button>
+
+    <!-- خروج -->
+    <button class="logout-btn" onclick="logout()">خروج از حساب</button>
+</div>
+
+<!-- فرم ثبت بازیکن -->
+<div id="addPlayerDiv" class="form-box" style="display:none">
+    <h3>ثبت بازیکن جدید</h3>
+    <input type="text" id="playerName" placeholder="نام بازیکن">
+    <button onclick="addPlayer()">ثبت</button>
+    <p id="playerMsg"></p>
+</div>
+
+<!-- فرم ثبت ادمین -->
+<div id="addAdminDiv" class="form-box" style="display:none">
+    <h3>ثبت ادمین جدید</h3>
+    <input type="text" id="adminUsername" placeholder="نام کاربری">
+    <input type="password" id="adminPassword" placeholder="رمز عبور">
+    <label>
+        <input type="checkbox" id="isSuper">
+        ادمین اصلی
+    </label><br><br>
+    <button onclick="addAdmin()">ثبت</button>
+    <p id="adminMsg"></p>
+</div>
+
+<script src="/admin/panel.js"></script>
+</body>
+</html>
