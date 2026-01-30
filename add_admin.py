@@ -3,8 +3,8 @@ import sqlite3, hashlib
 conn = sqlite3.connect("game.db")
 cur = conn.cursor()
 
-username = "Mpouransari"
-password = "Mars2004"  # پسورد دلخواه
+username = "admin"
+password = "admin"  # پسورد دلخواه
 hashed = hashlib.sha256(password.encode()).hexdigest()
 is_superadmin = 1
 
