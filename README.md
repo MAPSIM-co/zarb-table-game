@@ -40,6 +40,13 @@ An educational multiplication table game for practice, training, and competition
 
 ## 📦 Installation & Setup
 
+### Step 0: Update & Upgrade Your OS (Linux)
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
 ### Step 1: Clone the repository
 
 ```bash
