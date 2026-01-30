@@ -46,6 +46,17 @@ An educational multiplication table game for practice, training, and competition
 git clone https://github.com/MAPSIM-co/zarb-table-game.git
 cd zarb-table-game
 ```
+Then:
+```bash
+sudo apt update
+sudo apt install -y python3-venv
+
+```
+* OR
+
+```bash
+sudo apt install -y python3.10-venv
+```
 
 ### Step 2: Create and activate a virtual environment
 
