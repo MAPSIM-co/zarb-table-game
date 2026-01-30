@@ -4,7 +4,7 @@ An educational multiplication table game for practice, training, and competition
 
 ## Language 
 
-**- [زبان فارسی](https://github.com/MAPSIM-co/zarb-table-game/#)**
+**- [زبان فارسی](./README_FA.md)**
 
 ---
 
@@ -12,7 +12,7 @@ An educational multiplication table game for practice, training, and competition
 
 
 
-🔗 **[Watch Demo Game](https://github.com/MAPSIM-co/zarb-table-game/#)**
+🔗 **[Watch Demo Game](./#)**
 
 ---
 
@@ -246,5 +246,5 @@ SQLite database game.db is automatically created on first run.
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-MIT License
