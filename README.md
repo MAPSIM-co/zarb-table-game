@@ -168,7 +168,25 @@ journalctl -u zarb-table-game -f
 
 * Admin UI: http://127.0.0.1:8000/admin/index.html
 
-* Dashboard: http://127.0.0.1:8000/dashboard/index.html
+### Make Admin
+
+* First CTRL+C (For Stop Server)
+
+RUN:
+```bash
+python add_admin.py
+```
+
+Now :
+
+* Your username = `admin`
+* Your password = `admin` 
+
+👑 You Can Make `New User` And Visit `Report` User
+
+
+
+Dashboard: http://127.0.0.1:8000/dashboard/index.html
 
 ---
 
