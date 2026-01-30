@@ -596,5 +596,5 @@ async def practice_answer(data: dict):
 app.mount("/admin", StaticFiles(directory="admin"), name="admin")
 app.mount("/report-ui", StaticFiles(directory="report-ui"), name="report-ui")
 app.mount("/static", StaticFiles(directory="static"), name="static")
-app.mount("/dashboard", StaticFiles(directory="dashboard"), name="dashboard")
+app.mount("/dashboard", StaticFiles(directory="Dashboard"), name="dashboard")
 app.mount("/practice", StaticFiles(directory="practice"), name="practice")
