@@ -135,11 +135,42 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 * For remote VPS, replace 127.0.0.1 with your VPS IP Or Your Computer Network
 
 ---
+
+## ⚙️ Make Service File
+```bash
+chmod +x setup_service.sh
+sudo ./setup_service.sh
+```
+Managment Command :
+
+### Status Service
+
+```bash
+systemctl status zarb-table-game
+```
+### Restart Service
+
+```bash
+systemctl restart zarb-table-game
+```
+### Stop Service
+
+```bash
+systemctl stop zarb-table-game
+```
+### Log View Service
+
+```bash
+journalctl -u zarb-table-game -f
+```
+---
 ## ▶️ Access UI & APIs
 
 * Admin UI: http://127.0.0.1:8000/admin/index.html
 
 * Dashboard: http://127.0.0.1:8000/dashboard/index.html
+
+---
 
 ## 📡 API Reference – Zarb Table Game
 
