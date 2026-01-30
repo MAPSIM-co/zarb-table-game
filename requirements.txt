@@ -1,0 +1,21 @@
+# Core
+fastapi==0.111.0
+uvicorn[standard]==0.23.1
+python-multipart==0.0.6   # For Form data in admin APIs
+
+# Database & Utilities
+pydantic==2.7.2           # Data validation
+databases==0.7.2          # Optional if you later move to async DB
+python-dotenv==1.0.0      # Load .env files for configs
+
+# HTTP & API Clients
+requests==2.32.0           # For calling external APIs if needed
+httpx==1.2.3               # Async HTTP client (optional)
+
+# Optional Development Tools
+black==23.12.0             # Code formatting
+isort==6.12.0              # Import sorting
+mypy==1.5.1                # Type checking
+
+# Optional Security / Hashing
+passlib[bcrypt]==1.8.2     # If you hash passwords with bcrypt
