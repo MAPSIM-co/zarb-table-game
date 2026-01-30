@@ -176,7 +176,7 @@ journalctl -u zarb-table-game -f
 ---
 ## ▶️ Access UI & APIs
 
-* Admin UI: http://127.0.0.1:8000/admin/index.html
+* Admin UI: http://127.0.0.1:8000/admin/panel.html
 
 ### Make Admin
 
