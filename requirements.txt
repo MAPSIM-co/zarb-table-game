@@ -5,7 +5,7 @@ python-multipart==0.0.6   # For Form data in admin APIs
 
 # Database & Utilities
 pydantic==2.7.2           # Data validation
-databases==0.7.2          # Optional if you later move to async DB
+databases==0.9.0         # Optional if you later move to async DB
 python-dotenv==1.0.0      # Load .env files for configs
 
 # HTTP & API Clients
