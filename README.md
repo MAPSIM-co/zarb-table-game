@@ -53,13 +53,23 @@ sudo apt upgrade -y
 git clone https://github.com/MAPSIM-co/zarb-table-game.git
 cd zarb-table-game
 ```
-Then:
+- OR
+  
+If You Can Update Your Existing Repository :
+
+```bash
+cd ~/zarb-table-game
+git pull
+```
+
+Install Python Virtual Environment
+
 ```bash
 sudo apt update
 sudo apt install -y python3-venv
 
 ```
-* OR
+- OR (if you want Python 3.10 specifically)
 
 ```bash
 sudo apt install -y python3.10-venv
