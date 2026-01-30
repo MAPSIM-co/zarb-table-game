@@ -10,7 +10,7 @@ python-dotenv==1.0.0      # Load .env files for configs
 
 # HTTP & API Clients
 requests==2.32.0           # For calling external APIs if needed
-httpx==0.28.1               # Async HTTP client (optional)
+httpx>=0.24,<0.29               # Async HTTP client (optional)
 
 
 # Optional Development Tools
