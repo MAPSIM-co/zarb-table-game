@@ -12,7 +12,7 @@ An educational multiplication table game for practice, training, and competition
 
 
 
-🔗 **[Watch Demo Game](./#)**
+🔗 **[Watch Demo Game](http://194.60.230.228:8000/dashboard/index.html)**
 
 ---
 
