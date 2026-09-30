@@ -18,7 +18,7 @@ The application can run locally on **Linux, macOS, and Windows**, or be deployed
 
 ## Language
 
-- 🇮🇷 [نسخه فارسی](./README_FA.md)
+- 🇮🇷 [فارسی](./README_FA.md)
 
 ---
 

@@ -18,7 +18,7 @@ Zarb Table Game یک برنامه وب سبک است که با فناوری‌ه
 
 # 🌐 زبان
 
-- 🇬🇧 [English README](./README.md)
+- 🇬🇧 [English](./README.md)
 
 ---
 
