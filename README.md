@@ -30,7 +30,7 @@ Live demo:
 
 > The demo URL is only an example deployment.
 >
-> Zarb Table Game does not require this domain and can run on any server, VPS, or local computer.
+> Cross Table Game does not require this domain and can run on any server, VPS, or local computer.
 
 ---
 
