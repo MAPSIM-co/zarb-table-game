@@ -26,7 +26,16 @@ The application can run locally on **Linux, macOS, and Windows**, or be deployed
 
 Live demo:
 
-**[Cross Table](http://zarb.mapsim.shop:8000/dashboard/index.html)**
+**[Cross Table Game](http://zarb.mapsim.shop:8000/dashboard/index.html)**
+
+**[Cross Table Admin Panel](http://zarb.mapsim.shop:8000/admin/index.html)**
+
+- Username : `admin`
+- PassWord : `admin`
+
+**[Cross Table Report](http://zarb.mapsim.shop:8000/report-ui/index.html)**
+
+
 
 > The demo URL is only an example deployment.
 >

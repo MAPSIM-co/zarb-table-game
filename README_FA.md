@@ -28,7 +28,16 @@ Zarb Table Game یک برنامه وب سبک است که با فناوری‌ه
 
 **[جدول ضرب](http://zarb.mapsim.shop:8000/dashboard/index.html)**
 
-> آدرس بالا فقط یک نمونه از استقرار برنامه است.
+**[پنل مدیریت  جدول ضرب](http://zarb.mapsim.shop:8000/admin/index.html)**
+
+- Username : `admin`
+- PassWord : `admin`
+
+**[پنل گزارشات](http://zarb.mapsim.shop:8000/report-ui/index.html)**
+
+
+
+> آدرس های بالا فقط یک نمونه از استقرار برنامه است.
 >
 > برای اجرای Zarb Table Game نیازی به این دامنه نیست و برنامه می‌تواند روی هر سرور، VPS یا کامپیوتر محلی اجرا شود.
 
