@@ -1,4 +1,4 @@
-# Zarb Table Game
+# Cross Table Game
 
 An educational multiplication table game for **practice, training, and competition**.
 
@@ -26,7 +26,7 @@ The application can run locally on **Linux, macOS, and Windows**, or be deployed
 
 Live demo:
 
-**https://zarb.mapsim.shop:8000/dashboard/index.html**
+**[Cross Table](https://zarb.mapsim.shop:8000/dashboard/index.html)**
 
 > The demo URL is only an example deployment.
 >
@@ -36,7 +36,7 @@ Live demo:
 
 # 💡 Features
 
-- Multiplication table practice from 1 to 12
+- Multiplication table practice from 1 to 9
 - Timed quizzes
 - Multiplayer/class competition
 - Player scoring
