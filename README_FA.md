@@ -26,7 +26,7 @@ Zarb Table Game یک برنامه وب سبک است که با فناوری‌ه
 
 نسخه نمایشی آنلاین:
 
-**[جدول ضرب](https://zarb.mapsim.shop:8000/dashboard/index.html)**
+**[جدول ضرب](http://zarb.mapsim.shop:8000/dashboard/index.html)**
 
 > آدرس بالا فقط یک نمونه از استقرار برنامه است.
 >

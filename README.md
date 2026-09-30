@@ -26,7 +26,7 @@ The application can run locally on **Linux, macOS, and Windows**, or be deployed
 
 Live demo:
 
-**[Cross Table](https://zarb.mapsim.shop:8000/dashboard/index.html)**
+**[Cross Table](http://zarb.mapsim.shop:8000/dashboard/index.html)**
 
 > The demo URL is only an example deployment.
 >
